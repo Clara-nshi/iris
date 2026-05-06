@@ -1,0 +1,15 @@
+def ds_attributes(mydataset):
+    # 查看数据集信息
+    print("数据集信息：", mydataset.data)
+    # 查看数据集前5行信息
+    print("数据集前5行信息：", mydataset.data[:5])
+    # 查看目标值
+    print("目标值：", mydataset.target)
+    # 查看目标值名字
+    print("目标值名字：", mydataset.target_names)
+    # 查看特征名
+    print("特征名：", mydataset.feature_names)
+    # 查看数据集描述
+    print("数据集描述：", mydataset.DESCR)
+    # 数据文件路径
+    print("数据文件路径：", mydataset.filename)
